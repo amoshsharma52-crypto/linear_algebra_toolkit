@@ -1,0 +1,14 @@
+from src.matrix.transpose import transpose
+
+
+def test_transpose():
+    A = [
+        [1, 2, 3],
+        [4, 5, 6]
+    ]
+
+    assert transpose(A) == [
+        [1, 4],
+        [2, 5],
+        [3, 6]
+    ]
