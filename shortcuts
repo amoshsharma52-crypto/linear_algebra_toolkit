@@ -1,0 +1,24 @@
+mkdir      # Create directories
+touch      # Create files
+ls         # List files
+cd         # Change directory
+pwd        # Show current directory
+mv         # Rename or move files
+cp         # Copy files
+rm         # Delete files
+git status # Check Git status
+git add .  # Stage changes
+git commit # Commit changes
+git push   # Push to GitHub
+python3 -m pytest #test
+git commit -m "" #commit with message inside ""
+
+
+git add .
+git commit -m "Completed identity_matrix with test"
+git push
+
+touch src/matrix/identity_matrix.py
+touch docs/matrix/hill.md
+touch tests/test_identity_matrix.py
+touch examples/hill_demo.py
