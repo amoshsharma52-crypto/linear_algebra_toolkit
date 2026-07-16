@@ -15,7 +15,7 @@ git commit -m "" #commit with message inside ""
 
 
 git add .
-git commit -m "Completed identity_matrix with test"
+git commit -m "Determinants and tests complete"
 git push
 
 touch src/matrix/identity_matrix.py

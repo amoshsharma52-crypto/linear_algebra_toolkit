@@ -1,4 +1,4 @@
-from src.matrix.determinants import determinant
+from src.matrix.determinant import determinant
 import pytest
 def test_determinant():
         A=[[1,-2,3],[3,1,2],[0,1,2]]

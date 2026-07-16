@@ -7,7 +7,13 @@ def inverse(matrix):
     d = matrix[1][1]
 
     det = determinant(matrix)
+
     if det == 0:
-        raise ValueError("Matrix is Singular and has no inverse")
-    
-    
+        raise ValueError("Matrix is singular and has no inverse")
+
+    result = [
+        [d / det, -b / det],
+        [-c / det, a / det]
+    ]
+
+    return result
