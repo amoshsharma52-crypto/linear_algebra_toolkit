@@ -15,7 +15,7 @@ git commit -m "" #commit with message inside ""
 
 
 git add .
-git commit -m "Determinants and tests complete"
+git commit -m "minors and cofactors"
 git push
 
 touch src/matrix/identity_matrix.py
